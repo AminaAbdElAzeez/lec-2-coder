@@ -1,0 +1,154 @@
+<!DOCTYPE html> //declaration of html5
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lec-2 || HTML & CSS</title>
+
+    <style>
+      /* internal stylesheet */
+      #item {
+        /* background-color: blueviolet; */
+        background-image: url(background.jpg);
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
+
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Name..." required />
+      <br /><br />
+      <input type="password" placeholder="Password..." />
+      <br /><br />
+      <input type="email" placeholder="Email..." />
+      <br /><br />
+      <input type="color" />
+      <br /><br />
+      <input type="date" />
+      <br /><br />
+      <input type="search" placeholder="Search..." />
+      <br /><br />
+      <input type="file" />
+      <br /><br />
+      <input type="radio" name="gender" />male
+      <input type="radio" name="gender" />female <br /><br />
+      <input type="checkbox" />HTML <input type="checkbox" />CSS
+      <input type="checkbox" />JS <br /><br />
+      <br /><br />
+      <input type="datetime-local" />
+      <br /><br />
+      <input type="month" />
+      <br /><br />
+      <input type="time" />
+      <br /><br />
+      <input type="number" />
+      <br /><br />
+      <textarea placeholder="Message..." cols="15" rows="5"></textarea>
+      <br /><br />
+      <input type="submit" value="send" />
+      <br /><br />
+      <input type="reset" value="clear" />
+      <br /><br />
+    </form>
+
+    <select>
+      <optgroup label="lang">
+        <option>Html</option>
+        <option selected>css</option>
+        <option>js</option>
+      </optgroup>
+    </select>
+
+    <ul>
+      <li>user jonas : 50 points</li>
+      <li>user <bdi>اياد</bdi> : 80points</li>
+    </ul>
+
+    <!-- semantic tags -->
+    <!-- <div class="header">
+      <img/>
+      <div class="nav"></div>
+     </div> -->
+
+    <header>
+      <img />
+      <nav></nav>
+    </header>
+    <section></section>
+    <footer></footer>
+
+    <audio controls autoplay loop muted>
+      <source src="wait.mp3" />
+    </audio>
+
+    <video
+      width="200"
+      height="200"
+      controls
+      autoplay
+      loop
+      muted
+      poster="download.jfif"
+    >
+      <source
+        src="Quran kareem _ sourate al-Nahle _ 4 minutes ASMR _ relax قرآن كريم -سورة النحل - ٤😇 دقائق راحة نفسية.mp4"
+      />
+    </video>
+
+    <!-- css => cascading stylesheet -->
+    <!-- inline stylesheet -->
+    <h1 style="color: red; background-color: black">css</h1>
+    <div class="one">one</div>
+    <br />
+    <div class="two hjk fguh" id="item">two</div>
+    <br />
+    <div class="three">three</div>
+    <br />
+    <p>this is p</p>
+    <p>this is p</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quia!
+      Nobis vitae non cumque officiis modi repudiandae, consectetur voluptate
+      pariatur ab! Dignissimos magni voluptas adipisci! Laudantium incidunt quam
+      ipsum ad.
+    </p>
+    <a href="#">facebook</a>
+    <br />
+    <br />
+    <ul>
+      <li>html</li>
+      <li>css</li>
+      <li>js</li>
+    </ul>
+
+    <table border="5">
+      <caption>
+        title
+      </caption>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+      </tr>
+    </table>
+  </body>
+</html>
